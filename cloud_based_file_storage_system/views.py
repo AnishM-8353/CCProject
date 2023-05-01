@@ -14,8 +14,8 @@ import uuid
 from decouple import config
 import os
 
-ACCESS_KEY = 'AKIAT4UORZKLNLDEG5UY'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 REGION_NAME = 'ap-south-1'
 
 s3_client = boto3.client('s3',aws_access_key_id=ACCESS_KEY,aws_secret_access_key=SECRET_KEY,region_name=REGION_NAME)
